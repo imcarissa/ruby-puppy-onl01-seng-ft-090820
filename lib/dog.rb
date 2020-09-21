@@ -16,7 +16,6 @@ class Dog
     @@all.each do |individual_dogs|
       puts individual_dogs.name
     end
-  end
       
   def save
     @@all << self
